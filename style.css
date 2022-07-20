@@ -28,9 +28,9 @@ img{
 /*Making it responsive for mobile devices*/
 @media (max-width: 825px){
     .container{
-        width:70vw;
-        height: 50vh;
-        object-fit: fill;
+        width:100vw;
+        height: 70vh;
+        object-fit: contain;
     } 
     img{
         width: 100%;

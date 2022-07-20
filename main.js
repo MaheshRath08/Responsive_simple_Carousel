@@ -18,9 +18,11 @@ function changeImg(){
     container.style.transform = `translateX(${-800*idx}px)`
     resopnsive()
 }
+
+//To make the trasition responsive aswell
 function resopnsive(){
     let x = window.matchMedia("(max-width: 825px)")
     if(x.matches){
-        container.style.transform = `translateX(${-70*idx}vw)`
+        container.style.transform = `translateX(${-100*idx}vw)`
     }
 }
